@@ -24,7 +24,20 @@ main {
     
 }
 
+.right-login {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .card-login {
+    margin-right: 50px;
+    padding: 20px;
     width: 500px;
     background-color: #30173E;
+    border-radius: 15px ;
+}
+
+.card-login > h1 {
+    color: #C886D3;
+    text-align: center;
 }
